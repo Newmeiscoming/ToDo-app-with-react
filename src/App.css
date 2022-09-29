@@ -1,0 +1,53 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.App {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  width: 600px;
+  background-color: wheat;
+}
+ul{
+ list-style-type: none; 
+}
+h1{
+  background-color: aliceblue;
+}
+input{
+  width: 400px;
+  height: 50px;
+  border: 5px solid skyblue;
+  border-radius: 20px;
+  font-size: 30px;
+  background-color: pink;
+  color: crimson;
+}
+button{
+  margin-top: 10px;
+  height: 50px;
+  width: 150px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  border: 2px solid yellowgreen;
+  color: black;
+  font-size: large;
+}
+button:hover{
+  background-color: yellowgreen;
+  color:white;
+}
+ul{
+  margin-left: 50px;
+}
+ul li{
+  border: 2px solid black;
+  margin-bottom: 20px;
+  font-size: 30px;
+  background-color: rebeccapurple;
+  color: white;
+  width: 400px;
+  
+}
